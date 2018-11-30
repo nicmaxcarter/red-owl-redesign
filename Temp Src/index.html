@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Red Owl</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css?v=1.2" />
+    <link rel="icon" href="images/myIcon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/myIcon.ico" type="image/x-icon" />
+
+    <!-- Roboto Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <meta http-equiv="cache-control" content="no-cache" />
+  </head>
+  <body>
+    <!-- Banner -->
+    <!--
+      To use a video as your background, set data-video to the name of your video without
+      its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+      formats to work correctly.
+    -->
+    <section id="banner">
+      <div class="inner">
+        <h1 class="heroTxt">RED OWL</h1>
+        <h2 class="subHeroTxt">COFFEE COMPANY</h2>
+        <a
+          href="https://ordering.chownow.com/order/12108/locations"
+          class="button alt hero"
+          >ORDER</a
+        >
+        <a href="apply.html" class="button alt hero">APPLY</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper">
+      <div class="inner">
+        <section>
+          <div class="box">
+            <div class="content">
+              <h2 class="align-center">Get in Touch</h2>
+              <hr />
+              <form action="./assets/php/contact.php" method="post">
+                <div class="field half first">
+                  <label for="fname">Name</label>
+                  <input
+                    name="firstname"
+                    type="text"
+                    id="firstname"
+                    class="hide-robot"
+                  />
+                  <input name="fname" id="fname" type="text" placeholder="Name" />
+                </div>
+                <div class="field half">
+                  <label for="email">Email</label>
+                  <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="6"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <ul class="actions align-center">
+                  <li>
+                    <input
+                      value="Send Message"
+                      class="button special"
+                      type="submit"
+                    />
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </section>
+        <div class="copyright">
+          &copy; Red Owl Coffee Company. Design:
+          <a class="footer-link" href="https://codobit.com/"
+            >Codobit Development</a
+          >.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+
+    <script>
+      document.getElementById("fname").required = true;
+      document.getElementById("email").required = true;
+      document.getElementById("message").required = true;
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

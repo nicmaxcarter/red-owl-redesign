@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--
+  Transitive by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+  <head>
+    <title>Apply</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css?v=1.2" />
+    <!-- Roboto Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/myIcon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/myIcon.ico" type="image/x-icon" />
+
+    <meta http-equiv="cache-control" content="no-cache" />
+  </head>
+  <body class="subpage">
+    <!-- Header -->
+    <header id="header">
+      <div class="logo"><a href="index.html">RED OWL COFFEE COMPANY</a></div>
+      <a href="#menu" class="toggle"><span>Menu</span></a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper">
+      <div class="inner">
+        <section>
+          <div class="box">
+            <div class="content">
+              <h2 class="align-center">
+                We'd Love To Have You Be Apart of The Team
+              </h2>
+              <hr />
+              <form action="./assets/php/apply.php" method="post">
+                <div class="field half first">
+                  <label for="first-name">First Name</label>
+                  <input
+                    name="firstname"
+                    type="text"
+                    id="firstname"
+                    class="hide-robot"
+                  />
+                  <input
+                    name="first-name"
+                    id="first-name"
+                    type="text"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="field half">
+                  <label for="last-name">Last Name</label>
+                  <input
+                    name="last-name"
+                    id="last-name"
+                    type="text"
+                    placeholder="Last Name"
+                  />
+                </div>
+                <div class="field half first">
+                  <label for="email">Email</label>
+                  <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="field half">
+                  <label for="cell-number">Cell Phone</label>
+                  <input
+                    name="cell-number"
+                    id="cell-number"
+                    type="text"
+                    placeholder="Cell Phone"
+                  />
+                </div>
+                <div class="field">
+                  <label for="loc">Location</label>
+                  <div class="select-wrapper">
+                    <select name="loc" id="loc">
+                      <option value="">- Category -</option>
+                      <option value="Northside Drive">Northside Drive</option>
+                      <option value="Bemiss Rd">Bemiss Rd</option>
+                      <option value="North Valdosta">North Valdosta</option>
+                      <option value="Tift Regional">Tift Regional</option>
+                      <option value="Lake Park">Lake Park</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="message">Job experience</label>
+                  <textarea
+                    name="experience"
+                    id="experience"
+                    rows="6"
+                    placeholder="Work Exp."
+                  ></textarea>
+                </div>
+                <div class="field">
+                  <label for="about-you">Tell us about yourself</label>
+                  <textarea
+                    name="about-you"
+                    id="about-you"
+                    rows="6"
+                    placeholder="You are awesome!"
+                  ></textarea>
+                </div>
+                <ul class="actions align-center">
+                  <li>
+                    <input
+                      value="Submit Application"
+                      class="button special"
+                      type="submit"
+                    />
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </section>
+        <div class="copyright">
+          &copy; Red Owl Coffee Company. Design:
+          <a class="footer-link" href="https://codobit.com/"
+            >Codobit Development</a
+          >.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+
+    <script>
+      document.getElementById("first-name").required = true;
+      document.getElementById("last-name").required = true;
+      document.getElementById("email").required = true;
+      document.getElementById("cell-number").required = true;
+      document.getElementById("experience").required = true;
+      document.getElementById("about-you").required = true;
+      document.getElementById("loc").required = true;
+    </script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

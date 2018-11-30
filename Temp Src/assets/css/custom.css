@@ -1,0 +1,51 @@
+.heroTxt {
+  letter-spacing: 4px;
+  font-size: 65px !important;
+  line-height: 65px;
+  display: inline-block;
+  padding-left: 7px;
+}
+
+.subHeroTxt {
+  letter-spacing: 3px;
+  font-weight: 300;
+  color: #777;
+}
+
+.button.alt.hero {
+  margin: 0px 10px;
+}
+
+input[type="submit"].alt,
+input[type="reset"].alt,
+input[type="button"].alt,
+button.alt,
+.button.alt {
+  color: #888 !important;
+}
+
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+button.special,
+.button.special {
+  background-color: rgba(205, 34, 43, 0.808) !important;
+  color: #ffffff !important;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #555;
+}
+
+.hide-robot {
+  display: none !important;
+}
+
+@media screen and (max-width: 736px) {
+  #banner h1 {
+    font-size: 3em !important;
+    margin-bottom: 0em;
+    padding-bottom: 0;
+  }
+}
